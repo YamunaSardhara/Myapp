@@ -1,0 +1,22 @@
+{
+  "name": "Myapp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Yamuna <yamunas_productivet@outlook.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-pdf": "^1.5.1",
+    "angular-pdfjs-viewer": "^0.8.1",
+    "angularUtils-pagination": "angular-utils-pagination#^0.11.1"
+  }
+}

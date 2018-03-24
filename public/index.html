@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html ng-app="Myapp">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=2, maximum-scale=3">
+  <script type="text/javascript" src="jquery-1.8.2.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
+  <script src="controller/controller.js"></script>
+
+  <script src="bower_components/ng-pdfviewer/lib/pdf.worker.js"></script>
+  <script src="bower_components/ng-pdfviewer/lib/pdf.js"></script>
+  <script src="bower_components/ng-pdfviewer/ng-pdfviewer.js"></script>
+  <script src="../node_modules/angular-resource/angular-resource.js"></script>
+  <script src="angular-pageslide-directive/dist/angular-pageslide-directive.min.js"></script>
+  <script src="angular-pageslide-directive/src/angular-pageslide-directive.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.js"></script>
+
+
+
+  <script data-require="angular.js@1.2.x" src="http://code.angularjs.org/1.2.5/angular.js" data-semver="1.2.5"></script>
+  <script src="https://rawgithub.com/akrennmair/ng-pdfviewer/ed053c7c8030fee678d8c854376b55d8de42b76d/dist/ng-pdfviewer.min.js"></script>
+  <script src="https://rawgithub.com/mozilla/pdf.js/gh-pages/build/pdf.js"></script>
+  <script src="https://rawgithub.com/mozilla/pdf.js/gh-pages/build/pdf.worker.js"></script>
+  <script>
+  document.write('<base href="' + document.location + '" />');
+  </script>
+  <style>
+
+  li.inline
+  {
+    list-style: none; display: inline
+  }
+  .gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 400px;
+    height: 300px
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+
+</head>
+<body>
+
+
+
+  <div class="container" ng-controller="Appctrl"  class="gridStyle" ng-grid="gridOptions">
+    <div align="center" class="some-pdf-container pdfViewer singlePageView">
+      <h4>Welcome to Innovify</h4>
+    </div>
+  </div>
+</body>
+</html>
